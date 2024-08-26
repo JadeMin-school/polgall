@@ -1,0 +1,55 @@
+
+* {
+	font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", arial, Dotum, 돋움, sans-serif;
+	font-size: 13px;
+}
+
+#main_content {
+	width: 1000px;
+	margin: auto auto auto auto;
+
+	#post_view {
+		width: 800px;
+		margin: auto auto auto auto;
+
+		header {
+			margin: 20px 0px 25px;
+			padding-bottom: 11px;
+			border-bottom: 1px solid #eee;
+
+			#title {
+				margin-bottom: 7px;
+				font-size: 14px;
+				font-weight: bold;
+			}
+
+			#info {
+				#fl {
+					margin: 0px 2px;
+
+					.ip {
+						color: #999;
+					}
+
+					.timestamp {
+						&::before {
+							content: "";
+							display: inline-block;
+							width: 1px;
+							height: 12px;
+							background: #ccc;
+							margin: 0px 6px 0px 6px;
+						}
+					}
+				}
+				#fr {
+
+				}
+			}
+		}
+
+		#content {
+			line-height: 1.5;
+		}
+	}
+}

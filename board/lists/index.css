@@ -1,0 +1,69 @@
+* {
+	font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", arial, Dotum, 돋움, sans-serif;
+	font-size: 13px;
+}
+
+#main_content {
+	width: 1000px;
+	margin: auto auto auto auto;
+
+	/*#btn_write {
+		float: right;
+		width: 66px;
+		box-sizing: border-box;
+		padding: 0px 6px;
+		border: 1px solid #29367c;
+		background: #fff;
+		font-weight: bold;
+		font-size: 12px;
+		color: #29367c;
+		line-height: 19px;
+		vertical-align: top;
+		letter-spacing: -0.025em;
+		text-align: center;
+		text-decoration: none;
+		height: 21px;
+	}*/
+
+	#post_list {
+		width: 840px;
+		margin: auto auto auto auto;
+		text-align: center;
+		border-collapse: collapse;
+
+		thead {
+			th {
+				height: 37px;
+				border-width: 1px 0px 1px 0px;
+				border-style: solid;
+				border-color: #29367c;
+				color: #333;
+			}
+		}
+		
+		tbody {
+			.post {
+				td {
+					height: 25px;
+					padding: 0px 4px;
+					border-top: 1px solid #eee;
+				}
+
+				.title {
+					text-align: left;
+					
+					a {
+						color: #333;
+						text-decoration: none;
+					}
+				}
+
+				.writer {
+					.ip {
+						color: #999;
+					}
+				}
+			}
+		}
+	}
+}
